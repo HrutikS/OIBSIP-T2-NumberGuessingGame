@@ -9,8 +9,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-//Welcome window of the game.
-//Contains name of game, rules and Start Game button.
+//Game Window
+//Contains the game page including, random number generating button, text field to enter guess, submit button.
+//Also contains score and number of attempts.
 
 public class GameWindow {
 
