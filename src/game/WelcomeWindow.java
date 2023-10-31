@@ -5,7 +5,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-//Contains a welcome page and all rules of the game. Can include an image as well.
+//Welcome window of the game.
+//Contains name of game, rules and Start Game button.
 public class WelcomeWindow {
 	
 	public void welcome() {
