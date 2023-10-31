@@ -5,6 +5,12 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+//Game over window
+//Contains:
+	//Score
+	//New game button
+	//Exit game button
+
 public class GameOverWindow extends GuessingOperation{
 	
 	public void gameOver() {
