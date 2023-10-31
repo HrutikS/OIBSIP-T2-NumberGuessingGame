@@ -2,6 +2,11 @@ package game;
 
 import javax.swing.JOptionPane;
 
+//Contains logic to:
+	//match user guess with generated number.
+	//update score.
+	//update attempts.
+
 public class GuessingOperation extends GameWindow{
 	
 	public void operate(){
