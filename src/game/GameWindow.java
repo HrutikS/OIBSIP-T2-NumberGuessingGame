@@ -10,8 +10,11 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 //Game Window
-//Contains the game page including, random number generating button, text field to enter guess, submit button.
-//Also contains score and number of attempts.
+//Contains:
+	//random number generating button
+	//text field to enter guess
+	//submit, exit game, end game buttons.
+	//score and number of attempts.
 
 public class GameWindow {
 
