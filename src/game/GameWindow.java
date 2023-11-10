@@ -20,7 +20,7 @@ public class GameWindow {
 
 	public static int randomGenerated = 0;
 	public static int userGuess = 0;
-	public static int userAttempts = 3;
+	public static int userAttempts;
 	public static int score = 0;
 	JLabel labelForPoints; 
 	JLabel labelForAttempts;
@@ -46,7 +46,7 @@ public class GameWindow {
 		
 		//Label for Attempts
 		labelForAttempts = new JLabel();
-		userAttempts = 3;
+		userAttempts = 10;
 		labelForAttempts.setText("Attempts : "+userAttempts);
 		labelForAttempts.setBounds(400,-15,200,100);
 		labelForAttempts.setForeground(Color.white);
