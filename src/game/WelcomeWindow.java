@@ -22,7 +22,7 @@ public class WelcomeWindow {
 		frame.setLayout(null);
 		
 		
-        //Creating Label for Title
+        	//Creating Label for Title
 		JLabel label = new JLabel("<html><h1><strong>Number Guessing Game</strong></h1><hr></html>");
 		label.setBounds(100,50,350,50);
 		label.setForeground(Color.white);
@@ -36,12 +36,13 @@ public class WelcomeWindow {
 		labelForRulesHeading.setBounds(100, 40, 300, 200);
 		
 		JLabel labelForRules = new JLabel("<html>"+
-											"<ul>" +
-		        							"<li>Start Game.</li>" +             
-		        							"<li>Generate a random number between 1-100.</li>" +
-		        							"<li>Enter your guess in the text box.</li>" + 
-		        							"<li>You get 3 Attempts to get the correct answer.</li>" +
-		        							"</ul><html>");
+							"<ul>" +
+							"<li>Start Game.</li>" +             
+		        				"<li>Generate a random number between 1-100.</li>" +
+		        				"<li>Enter your guess in the text box.</li>" + 
+		        				"<li>You get 3 Attempts to get the correct answer.</li>" +
+							"<li>Once you guess the number correctly, generate a new one.</li>" +	  
+		        				"</ul><html>");
 		labelForRules.setBounds(100, 110, 300, 200);
 		labelForRules.setForeground(Color.white);
 		frame.add(labelForRules);
